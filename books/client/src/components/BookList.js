@@ -34,7 +34,7 @@ export class BookList extends Component {
   render() {
     return (
       <div>
-        <ul id="book-lis">{this.displayBooks()}</ul>
+        <ul id="book-list">{this.displayBooks()}</ul>
         <BookDetails bookId={this.state.selected} />
       </div>
     );
